@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		249C09C4167DBCE80058A448 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 249C09C3167DBCE80058A448 /* UIKit.framework */; };
+		249C09C6167DBCE80058A448 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 249C09C5167DBCE80058A448 /* Foundation.framework */; };
+		249C09C8167DBCE80058A448 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 249C09C7167DBCE80058A448 /* CoreGraphics.framework */; };
+		249C09CA167DBCE80058A448 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 249C09C9167DBCE80058A448 /* CoreData.framework */; };
+		249C09D0167DBCE80058A448 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 249C09CE167DBCE80058A448 /* InfoPlist.strings */; };
+		249C09D2167DBCE80058A448 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 249C09D1167DBCE80058A448 /* main.m */; };
+		249C09D6167DBCE80058A448 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 249C09D5167DBCE80058A448 /* AppDelegate.m */; };
+		249C09D8167DBCE80058A448 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 249C09D7167DBCE80058A448 /* Default.png */; };
+		249C09DA167DBCE80058A448 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 249C09D9167DBCE80058A448 /* Default@2x.png */; };
+		249C09DC167DBCE80058A448 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 249C09DB167DBCE80058A448 /* Default-568h@2x.png */; };
+		249C09DF167DBCE80058A448 /* i_SlimFit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 249C09DD167DBCE80058A448 /* i_SlimFit.xcdatamodeld */; };
+		249C09E7167DBCE80058A448 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 249C09E6167DBCE80058A448 /* SenTestingKit.framework */; };
+		249C09E8167DBCE80058A448 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 249C09C3167DBCE80058A448 /* UIKit.framework */; };
+		249C09E9167DBCE80058A448 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 249C09C5167DBCE80058A448 /* Foundation.framework */; };
+		249C09EA167DBCE80058A448 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 249C09C9167DBCE80058A448 /* CoreData.framework */; };
+		249C09F2167DBCE80058A448 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 249C09F0167DBCE80058A448 /* InfoPlist.strings */; };
+		249C09F5167DBCE80058A448 /* i_SlimFitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 249C09F4167DBCE80058A448 /* i_SlimFitTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		249C09EB167DBCE80058A448 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 249C09B6167DBCE80058A448 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 249C09BE167DBCE80058A448;
+			remoteInfo = "i-SlimFit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		249C09BF167DBCE80058A448 /* i-SlimFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "i-SlimFit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		249C09C3167DBCE80058A448 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		249C09C5167DBCE80058A448 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		249C09C7167DBCE80058A448 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		249C09C9167DBCE80058A448 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		249C09CD167DBCE80058A448 /* i-SlimFit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "i-SlimFit-Info.plist"; sourceTree = "<group>"; };
+		249C09CF167DBCE80058A448 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		249C09D1167DBCE80058A448 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		249C09D3167DBCE80058A448 /* i-SlimFit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "i-SlimFit-Prefix.pch"; sourceTree = "<group>"; };
+		249C09D4167DBCE80058A448 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		249C09D5167DBCE80058A448 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		249C09D7167DBCE80058A448 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		249C09D9167DBCE80058A448 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		249C09DB167DBCE80058A448 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		249C09DE167DBCE80058A448 /* i_SlimFit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = i_SlimFit.xcdatamodel; sourceTree = "<group>"; };
+		249C09E5167DBCE80058A448 /* i-SlimFitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "i-SlimFitTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		249C09E6167DBCE80058A448 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		249C09EF167DBCE80058A448 /* i-SlimFitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "i-SlimFitTests-Info.plist"; sourceTree = "<group>"; };
+		249C09F1167DBCE80058A448 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		249C09F3167DBCE80058A448 /* i_SlimFitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = i_SlimFitTests.h; sourceTree = "<group>"; };
+		249C09F4167DBCE80058A448 /* i_SlimFitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = i_SlimFitTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		249C09BC167DBCE80058A448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				249C09C4167DBCE80058A448 /* UIKit.framework in Frameworks */,
+				249C09C6167DBCE80058A448 /* Foundation.framework in Frameworks */,
+				249C09C8167DBCE80058A448 /* CoreGraphics.framework in Frameworks */,
+				249C09CA167DBCE80058A448 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		249C09E1167DBCE80058A448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				249C09E7167DBCE80058A448 /* SenTestingKit.framework in Frameworks */,
+				249C09E8167DBCE80058A448 /* UIKit.framework in Frameworks */,
+				249C09E9167DBCE80058A448 /* Foundation.framework in Frameworks */,
+				249C09EA167DBCE80058A448 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		249C09B4167DBCE80058A448 = {
+			isa = PBXGroup;
+			children = (
+				249C09CB167DBCE80058A448 /* i-SlimFit */,
+				249C09ED167DBCE80058A448 /* i-SlimFitTests */,
+				249C09C2167DBCE80058A448 /* Frameworks */,
+				249C09C0167DBCE80058A448 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		249C09C0167DBCE80058A448 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				249C09BF167DBCE80058A448 /* i-SlimFit.app */,
+				249C09E5167DBCE80058A448 /* i-SlimFitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		249C09C2167DBCE80058A448 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				249C09C3167DBCE80058A448 /* UIKit.framework */,
+				249C09C5167DBCE80058A448 /* Foundation.framework */,
+				249C09C7167DBCE80058A448 /* CoreGraphics.framework */,
+				249C09C9167DBCE80058A448 /* CoreData.framework */,
+				249C09E6167DBCE80058A448 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		249C09CB167DBCE80058A448 /* i-SlimFit */ = {
+			isa = PBXGroup;
+			children = (
+				249C09D4167DBCE80058A448 /* AppDelegate.h */,
+				249C09D5167DBCE80058A448 /* AppDelegate.m */,
+				249C09DD167DBCE80058A448 /* i_SlimFit.xcdatamodeld */,
+				249C09CC167DBCE80058A448 /* Supporting Files */,
+			);
+			path = "i-SlimFit";
+			sourceTree = "<group>";
+		};
+		249C09CC167DBCE80058A448 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				249C09CD167DBCE80058A448 /* i-SlimFit-Info.plist */,
+				249C09CE167DBCE80058A448 /* InfoPlist.strings */,
+				249C09D1167DBCE80058A448 /* main.m */,
+				249C09D3167DBCE80058A448 /* i-SlimFit-Prefix.pch */,
+				249C09D7167DBCE80058A448 /* Default.png */,
+				249C09D9167DBCE80058A448 /* Default@2x.png */,
+				249C09DB167DBCE80058A448 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		249C09ED167DBCE80058A448 /* i-SlimFitTests */ = {
+			isa = PBXGroup;
+			children = (
+				249C09F3167DBCE80058A448 /* i_SlimFitTests.h */,
+				249C09F4167DBCE80058A448 /* i_SlimFitTests.m */,
+				249C09EE167DBCE80058A448 /* Supporting Files */,
+			);
+			path = "i-SlimFitTests";
+			sourceTree = "<group>";
+		};
+		249C09EE167DBCE80058A448 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				249C09EF167DBCE80058A448 /* i-SlimFitTests-Info.plist */,
+				249C09F0167DBCE80058A448 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		249C09BE167DBCE80058A448 /* i-SlimFit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 249C09F8167DBCE80058A448 /* Build configuration list for PBXNativeTarget "i-SlimFit" */;
+			buildPhases = (
+				249C09BB167DBCE80058A448 /* Sources */,
+				249C09BC167DBCE80058A448 /* Frameworks */,
+				249C09BD167DBCE80058A448 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "i-SlimFit";
+			productName = "i-SlimFit";
+			productReference = 249C09BF167DBCE80058A448 /* i-SlimFit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		249C09E4167DBCE80058A448 /* i-SlimFitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 249C09FB167DBCE80058A448 /* Build configuration list for PBXNativeTarget "i-SlimFitTests" */;
+			buildPhases = (
+				249C09E0167DBCE80058A448 /* Sources */,
+				249C09E1167DBCE80058A448 /* Frameworks */,
+				249C09E2167DBCE80058A448 /* Resources */,
+				249C09E3167DBCE80058A448 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				249C09EC167DBCE80058A448 /* PBXTargetDependency */,
+			);
+			name = "i-SlimFitTests";
+			productName = "i-SlimFitTests";
+			productReference = 249C09E5167DBCE80058A448 /* i-SlimFitTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		249C09B6167DBCE80058A448 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Sornsiri;
+			};
+			buildConfigurationList = 249C09B9167DBCE80058A448 /* Build configuration list for PBXProject "i-SlimFit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 249C09B4167DBCE80058A448;
+			productRefGroup = 249C09C0167DBCE80058A448 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				249C09BE167DBCE80058A448 /* i-SlimFit */,
+				249C09E4167DBCE80058A448 /* i-SlimFitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		249C09BD167DBCE80058A448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				249C09D0167DBCE80058A448 /* InfoPlist.strings in Resources */,
+				249C09D8167DBCE80058A448 /* Default.png in Resources */,
+				249C09DA167DBCE80058A448 /* Default@2x.png in Resources */,
+				249C09DC167DBCE80058A448 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		249C09E2167DBCE80058A448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				249C09F2167DBCE80058A448 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		249C09E3167DBCE80058A448 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		249C09BB167DBCE80058A448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				249C09D2167DBCE80058A448 /* main.m in Sources */,
+				249C09D6167DBCE80058A448 /* AppDelegate.m in Sources */,
+				249C09DF167DBCE80058A448 /* i_SlimFit.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		249C09E0167DBCE80058A448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				249C09F5167DBCE80058A448 /* i_SlimFitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		249C09EC167DBCE80058A448 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 249C09BE167DBCE80058A448 /* i-SlimFit */;
+			targetProxy = 249C09EB167DBCE80058A448 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		249C09CE167DBCE80058A448 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				249C09CF167DBCE80058A448 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		249C09F0167DBCE80058A448 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				249C09F1167DBCE80058A448 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		249C09F6167DBCE80058A448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		249C09F7167DBCE80058A448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		249C09F9167DBCE80058A448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "i-SlimFit/i-SlimFit-Prefix.pch";
+				INFOPLIST_FILE = "i-SlimFit/i-SlimFit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		249C09FA167DBCE80058A448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "i-SlimFit/i-SlimFit-Prefix.pch";
+				INFOPLIST_FILE = "i-SlimFit/i-SlimFit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		249C09FC167DBCE80058A448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/i-SlimFit.app/i-SlimFit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "i-SlimFit/i-SlimFit-Prefix.pch";
+				INFOPLIST_FILE = "i-SlimFitTests/i-SlimFitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		249C09FD167DBCE80058A448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/i-SlimFit.app/i-SlimFit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "i-SlimFit/i-SlimFit-Prefix.pch";
+				INFOPLIST_FILE = "i-SlimFitTests/i-SlimFitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		249C09B9167DBCE80058A448 /* Build configuration list for PBXProject "i-SlimFit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				249C09F6167DBCE80058A448 /* Debug */,
+				249C09F7167DBCE80058A448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		249C09F8167DBCE80058A448 /* Build configuration list for PBXNativeTarget "i-SlimFit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				249C09F9167DBCE80058A448 /* Debug */,
+				249C09FA167DBCE80058A448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		249C09FB167DBCE80058A448 /* Build configuration list for PBXNativeTarget "i-SlimFitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				249C09FC167DBCE80058A448 /* Debug */,
+				249C09FD167DBCE80058A448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		249C09DD167DBCE80058A448 /* i_SlimFit.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				249C09DE167DBCE80058A448 /* i_SlimFit.xcdatamodel */,
+			);
+			currentVersion = 249C09DE167DBCE80058A448 /* i_SlimFit.xcdatamodel */;
+			path = i_SlimFit.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 249C09B6167DBCE80058A448 /* Project object */;
+}
