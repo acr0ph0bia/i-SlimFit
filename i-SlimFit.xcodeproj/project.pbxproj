@@ -24,6 +24,17 @@
 		249C09EA167DBCE80058A448 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 249C09C9167DBCE80058A448 /* CoreData.framework */; };
 		249C09F2167DBCE80058A448 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 249C09F0167DBCE80058A448 /* InfoPlist.strings */; };
 		249C09F5167DBCE80058A448 /* i_SlimFitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 249C09F4167DBCE80058A448 /* i_SlimFitTests.m */; };
+		249C09FF167DBD1F0058A448 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 249C09FE167DBD1F0058A448 /* Localizable.strings */; };
+		249C0A01167DBD410058A448 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 249C0A00167DBD410058A448 /* Storyboard.storyboard */; };
+		249C0A04167F71360058A448 /* GoalHeightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 249C0A03167F71360058A448 /* GoalHeightViewController.m */; };
+		249C0A0716807DB70058A448 /* GoalNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 249C0A0616807DB70058A448 /* GoalNameViewController.m */; };
+		249C0A0F168085650058A448 /* DayToGoalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 249C0A0E168085650058A448 /* DayToGoalViewController.m */; };
+		249C0A151680858A0058A448 /* GoalWeightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 249C0A141680858A0058A448 /* GoalWeightViewController.m */; };
+		249C0A18168085A50058A448 /* CurrentWeightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 249C0A17168085A50058A448 /* CurrentWeightViewController.m */; };
+		249C0A1B168085B80058A448 /* BirthDateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 249C0A1A168085B80058A448 /* BirthDateViewController.m */; };
+		249C0A1E168086130058A448 /* RoutineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 249C0A1D168086130058A448 /* RoutineViewController.m */; };
+		249C0A2116808B120058A448 /* SetGoalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 249C0A2016808B110058A448 /* SetGoalViewController.m */; };
+		249C0A2416808B2D0058A448 /* VerifyGoalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 249C0A2316808B2D0058A448 /* VerifyGoalViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +69,26 @@
 		249C09F1167DBCE80058A448 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		249C09F3167DBCE80058A448 /* i_SlimFitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = i_SlimFitTests.h; sourceTree = "<group>"; };
 		249C09F4167DBCE80058A448 /* i_SlimFitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = i_SlimFitTests.m; sourceTree = "<group>"; };
+		249C09FE167DBD1F0058A448 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		249C0A00167DBD410058A448 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		249C0A02167F71360058A448 /* GoalHeightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoalHeightViewController.h; sourceTree = "<group>"; };
+		249C0A03167F71360058A448 /* GoalHeightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoalHeightViewController.m; sourceTree = "<group>"; };
+		249C0A0516807DB70058A448 /* GoalNameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoalNameViewController.h; sourceTree = "<group>"; };
+		249C0A0616807DB70058A448 /* GoalNameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoalNameViewController.m; sourceTree = "<group>"; };
+		249C0A0D168085650058A448 /* DayToGoalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayToGoalViewController.h; sourceTree = "<group>"; };
+		249C0A0E168085650058A448 /* DayToGoalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayToGoalViewController.m; sourceTree = "<group>"; };
+		249C0A131680858A0058A448 /* GoalWeightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoalWeightViewController.h; sourceTree = "<group>"; };
+		249C0A141680858A0058A448 /* GoalWeightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoalWeightViewController.m; sourceTree = "<group>"; };
+		249C0A16168085A50058A448 /* CurrentWeightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentWeightViewController.h; sourceTree = "<group>"; };
+		249C0A17168085A50058A448 /* CurrentWeightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentWeightViewController.m; sourceTree = "<group>"; };
+		249C0A19168085B80058A448 /* BirthDateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BirthDateViewController.h; sourceTree = "<group>"; };
+		249C0A1A168085B80058A448 /* BirthDateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BirthDateViewController.m; sourceTree = "<group>"; };
+		249C0A1C168086120058A448 /* RoutineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoutineViewController.h; sourceTree = "<group>"; };
+		249C0A1D168086130058A448 /* RoutineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoutineViewController.m; sourceTree = "<group>"; };
+		249C0A1F16808B110058A448 /* SetGoalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetGoalViewController.h; sourceTree = "<group>"; };
+		249C0A2016808B110058A448 /* SetGoalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetGoalViewController.m; sourceTree = "<group>"; };
+		249C0A2216808B2D0058A448 /* VerifyGoalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerifyGoalViewController.h; sourceTree = "<group>"; };
+		249C0A2316808B2D0058A448 /* VerifyGoalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerifyGoalViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,7 +153,10 @@
 			children = (
 				249C09D4167DBCE80058A448 /* AppDelegate.h */,
 				249C09D5167DBCE80058A448 /* AppDelegate.m */,
+				249C0A00167DBD410058A448 /* Storyboard.storyboard */,
+				249C09FE167DBD1F0058A448 /* Localizable.strings */,
 				249C09DD167DBCE80058A448 /* i_SlimFit.xcdatamodeld */,
+				249C0A0C16807E7A0058A448 /* Set Goal */,
 				249C09CC167DBCE80058A448 /* Supporting Files */,
 			);
 			path = "i-SlimFit";
@@ -159,6 +193,31 @@
 				249C09F0167DBCE80058A448 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		249C0A0C16807E7A0058A448 /* Set Goal */ = {
+			isa = PBXGroup;
+			children = (
+				249C0A0D168085650058A448 /* DayToGoalViewController.h */,
+				249C0A0E168085650058A448 /* DayToGoalViewController.m */,
+				249C0A02167F71360058A448 /* GoalHeightViewController.h */,
+				249C0A03167F71360058A448 /* GoalHeightViewController.m */,
+				249C0A0516807DB70058A448 /* GoalNameViewController.h */,
+				249C0A0616807DB70058A448 /* GoalNameViewController.m */,
+				249C0A131680858A0058A448 /* GoalWeightViewController.h */,
+				249C0A141680858A0058A448 /* GoalWeightViewController.m */,
+				249C0A16168085A50058A448 /* CurrentWeightViewController.h */,
+				249C0A17168085A50058A448 /* CurrentWeightViewController.m */,
+				249C0A19168085B80058A448 /* BirthDateViewController.h */,
+				249C0A1A168085B80058A448 /* BirthDateViewController.m */,
+				249C0A1C168086120058A448 /* RoutineViewController.h */,
+				249C0A1D168086130058A448 /* RoutineViewController.m */,
+				249C0A1F16808B110058A448 /* SetGoalViewController.h */,
+				249C0A2016808B110058A448 /* SetGoalViewController.m */,
+				249C0A2216808B2D0058A448 /* VerifyGoalViewController.h */,
+				249C0A2316808B2D0058A448 /* VerifyGoalViewController.m */,
+			);
+			name = "Set Goal";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +295,8 @@
 				249C09D8167DBCE80058A448 /* Default.png in Resources */,
 				249C09DA167DBCE80058A448 /* Default@2x.png in Resources */,
 				249C09DC167DBCE80058A448 /* Default-568h@2x.png in Resources */,
+				249C09FF167DBD1F0058A448 /* Localizable.strings in Resources */,
+				249C0A01167DBD410058A448 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +334,15 @@
 				249C09D2167DBCE80058A448 /* main.m in Sources */,
 				249C09D6167DBCE80058A448 /* AppDelegate.m in Sources */,
 				249C09DF167DBCE80058A448 /* i_SlimFit.xcdatamodeld in Sources */,
+				249C0A04167F71360058A448 /* GoalHeightViewController.m in Sources */,
+				249C0A0716807DB70058A448 /* GoalNameViewController.m in Sources */,
+				249C0A0F168085650058A448 /* DayToGoalViewController.m in Sources */,
+				249C0A151680858A0058A448 /* GoalWeightViewController.m in Sources */,
+				249C0A18168085A50058A448 /* CurrentWeightViewController.m in Sources */,
+				249C0A1B168085B80058A448 /* BirthDateViewController.m in Sources */,
+				249C0A1E168086130058A448 /* RoutineViewController.m in Sources */,
+				249C0A2116808B120058A448 /* SetGoalViewController.m in Sources */,
+				249C0A2416808B2D0058A448 /* VerifyGoalViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
